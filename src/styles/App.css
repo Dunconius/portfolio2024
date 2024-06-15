@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+/* .anchor-menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+  
+.content {
+    margin-left: 200px; /* Adjust based on the width of your anchor menu */
+    padding: 20px;
+}
+  
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-info {
+    height: 300px;
+    background-color: aquamarine;
+}
+  

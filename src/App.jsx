@@ -4,19 +4,19 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import AnchorMenu from "./components/AnchorMenu";
+import Intro from "./components/Intro";
+import "./styles/App.css"
+
 
 const App = () => {
   return (
     <div className="portfolio-site">
-      <nav className="anchor-menu">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div className="sidebar">
+        <Intro />
+        <AnchorMenu />
+
+      </div>
       <div className="main-content">
         <About />
         <Projects />

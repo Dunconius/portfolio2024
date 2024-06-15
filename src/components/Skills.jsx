@@ -1,6 +1,6 @@
 
 const Skills = () => (
-    <section id="skills">
+    <section className="main-info" id="skills">
         <h2>Skills</h2>
         <p>Skills info goes here</p>
     </section>
