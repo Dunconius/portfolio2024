@@ -1,0 +1,42 @@
+
+.header-div {
+    background-color: aquamarine;
+    display: flex;
+    width: 100vw;
+    padding: 1px 10px 10px 40px;
+}
+
+.hamburger-icon {
+    border: none;
+    background: none;
+    font-size: 40px;
+    font-weight: 900;
+    transition: all 0.2s ease-in-out;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 4px;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+.nav-bar {
+    padding: 1px 10px 10px 40px;
+    background-color: rgba(255, 247, 183, 0.5);
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0.0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-bar.open {
+    opacity: 1.0;
+    max-height: 200px; /* Adjust based on content height */
+
+
+}

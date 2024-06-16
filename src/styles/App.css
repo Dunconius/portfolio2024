@@ -1,17 +1,26 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    display: flex;
+
+}
+
+.portfolio-site {
+    background-color: bisque;
+}
+
+.sidebar {
+    background-color: #e47c91;
+}
+.portfolio-site {
+    max-width: 800px;
+}
+
   
-/* .anchor-menu {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-} */
-  
-.content {
-    margin-left: 200px; /* Adjust based on the width of your anchor menu */
-    padding: 20px;
+.main-content {
+    /* padding: 20px; */
 }
   
 section {
@@ -20,7 +29,7 @@ section {
 }
 
 .main-info {
-    height: 300px;
+    min-height: 300px; /* take this off once filled with content*/
     background-color: aquamarine;
 }
   
