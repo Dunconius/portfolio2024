@@ -8,27 +8,30 @@ My updated portfolio website (June 2024). Built as a single page web app using r
 - experience
 - contact
 
+## Routes
+
+- "/" : homepage
+- About
+- Projects
+- Skills
+- Experience
+- Contact
+
 ## Components
 
+- Header
+- Nav bar
+- Main
+- Footer
 - Main info:
-  - About
-  - Projects
-  - Skills
-  - Experience
-  - Contact
-- Other Bits:
-  - Nav menu
-  - Socials
-  - Theme changer
+- Theme changer
 
 ## Features
 
 - Theme change
   - Button to switch between 3 different colour themes. Light, Dark, & Neon
-- Side scrolly Main
-  - Main content on right side. Main content scrolls independantly of other page elments
-- Vertical menu
-  - Vertical anchor menu on left side. Menu items highlight depending on main section
+- Drop down menu
+- Conditional routing?
 - Mobile design
   - In mobile view side menu replaced with dropdown menu
   - Sticky headers for sections

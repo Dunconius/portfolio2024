@@ -1,14 +1,25 @@
+import { NavLink } from "react-router-dom";
 import React from 'react';
 import "../styles/Header.css"
 
 const Header = ({ toggleMenu }) => {
     return (
-        <div className="header-div">
-            <button className="hamburger-icon" onClick={toggleMenu}>
-                &#9776; {/* Unicode character for hamburger icon */}
-            </button>
-            <h1>This is the header</h1>
-        </div>
+        <header>
+            <div className="header-div">
+                <button className="hamburger-icon" onClick={toggleMenu}>
+                    &#9776; {/* Unicode character for hamburger icon */}
+                </button>
+                <h1>This is the header</h1>
+            </div>
+            <nav id="headerNavbar">
+                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={"/about"}>About</NavLink>
+                <NavLink to={"/experience"}>Experience</NavLink>
+                <NavLink to={"/skills"}>Skills</NavLink>
+                <NavLink to={"/projects"}>Projects</NavLink>
+                <NavLink to={"/contact"}>Contact</NavLink>
+            </nav>
+        </header>
     );
 };
 

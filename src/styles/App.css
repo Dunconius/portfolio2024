@@ -28,8 +28,5 @@ section {
     border-bottom: 1px solid #ccc;
 }
 
-.main-info {
-    min-height: 300px; /* take this off once filled with content*/
-    background-color: aquamarine;
-}
+
   
