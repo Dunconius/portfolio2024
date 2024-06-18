@@ -11,11 +11,11 @@
     background: none;
     font-size: 40px;
     font-weight: 900;
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .hamburger-icon:hover {
-    cursor: pointer;
     text-shadow: 0px 0px 4px;
 }
 
@@ -24,19 +24,29 @@ h1 {
 }
 
 .nav-bar {
-    padding: 1px 10px 10px 40px;
-    background-color: rgba(255, 247, 183, 0.5);
+    padding: 0px 20px;
+    background-color: rgba(255, 247, 183, 0.75);
     position: absolute;
     width: 100%;
     max-height: 0;
     overflow: hidden;
-    opacity: 0.0;
+    opacity: 1.0;
     transition: all 0.3s ease-in-out;
 }
 
 .nav-bar.open {
+    padding: 10px 20px;
     opacity: 1.0;
-    max-height: 200px; /* Adjust based on content height */
+    max-height: 200px; /* Ensure all content is visible */
+}
 
+.nav-bar a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
 
+.nav-bar a:hover {
+    color: #000;
 }

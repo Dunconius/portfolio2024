@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom";
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/Header.css"
 
-const Header = ({ toggleMenu }) => {
+const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+    
     return (
         <header>
             <div className="header-div">
@@ -11,7 +17,7 @@ const Header = ({ toggleMenu }) => {
                 </button>
                 <h1>This is the header</h1>
             </div>
-            <nav id="headerNavbar">
+            <nav className={`nav-bar ${isOpen ? 'open' : ''}`}>
                 <NavLink to={"/"}>Home</NavLink>
                 <NavLink to={"/about"}>About</NavLink>
                 <NavLink to={"/experience"}>Experience</NavLink>
