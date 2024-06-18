@@ -1,6 +1,6 @@
 
 .header-div {
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
     display: flex;
     width: 100vw;
     padding: 1px 10px 10px 40px;
@@ -25,7 +25,7 @@ h1 {
 
 .nav-bar {
     padding: 0px 20px;
-    background-color: rgba(255, 247, 183, 0.75);
+    background-color: rgba(0, 149, 99, 0.85);
     position: absolute;
     width: 100%;
     max-height: 0;
@@ -37,14 +37,15 @@ h1 {
 .nav-bar.open {
     padding: 10px 20px;
     opacity: 1.0;
-    max-height: 200px; /* Ensure all content is visible */
+    max-height: 250px; /* Ensure all content is visible */
 }
 
 .nav-bar a {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    color: #333;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .nav-bar a:hover {
