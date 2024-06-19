@@ -18,7 +18,7 @@ const Header = () => {
                 <h1>This is the header</h1>
             </div>
             <nav className={`nav-bar ${isOpen ? 'open' : ''}`}>
-                <div>
+                <div id="nav-links">
                     <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
                     <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
                     <NavLink to="/experience" onClick={() => setIsOpen(false)}>Experience</NavLink>
@@ -26,10 +26,10 @@ const Header = () => {
                     <NavLink to="/projects" onClick={() => setIsOpen(false)}>Projects</NavLink>
                     <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
                 </div>
-                <div>
-                    <h3>Light Mode</h3>
-                    <h3>Dark Mode</h3>
-                    <h3>Neon</h3>
+                <div id="theme-links">
+                    <button>Light Mode</button>
+                    <button>Dark Mode</button>
+                    <button>Neon</button>
                 </div>
             </nav>
         </header>
