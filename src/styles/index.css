@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 code {
@@ -20,7 +20,8 @@ code {
 }
 
 .footer {
-  background-color: #e47c91;
+  background-color: var(--footer-color);
+  color: var(--footer-text);
   position: fixed;
   bottom: 0;
   width: 100%;

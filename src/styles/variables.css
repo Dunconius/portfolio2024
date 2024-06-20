@@ -1,44 +1,52 @@
 /* themes.css */
 :root {
-    --primary-color: #e1e7f0;
-    --secondary-color: #2ecc71;
-    --background-color: #0f172a;
-    --text-color: #e1e7f0;
-    --header-bg-color: #111e3f;
-    --nav-bg-color: rgba(255, 247, 183, 0.5);
-    --nav-link-color: #122b39;
-    --nav-link-hover-color: #58ddc8;
+    --text-color: #0f172a;
+    --background-color: #ffffff;
+    --header-bg-color: #f6f6fa;
+    --highlight-color: #ff2056;
+    --shadow-color: #ff2056;
+    --shadow-stlye: none;
+    --hamburger-color: var(--text-color);
+    --hamburger-hover: #ff2056;
+    --footer-color: #1e1e1e;
+    --footer-text: #ffffff;
 }
 
 .light-theme {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --background-color: #f8f8f8;
-    --text-color: #333333;
-    --header-bg-color: #ffffff;
-    --nav-bg-color: rgba(255, 247, 183, 0.5);
-    --nav-link-color: #333;
-    --nav-link-hover-color: #000;
+    --text-color: #0f172a;
+    --background-color: #ffffff;
+    --header-bg-color: #f6f6fa;
+    --highlight-color: #ff2056;
+    --shadow-color: #ff2056;
+    --shadow-stlye: none;
+    --hamburger-color: var(--text-color);
+    --hamburger-hover: #ff2056;
+    --footer-color: #1e1e1e;
+    --footer-text: #ffffff;
 }
 
 .dark-theme {
-    --primary-color: #2ecc71;
-    --secondary-color: #3498db;
-    --background-color: #333333;
-    --text-color: #f8f8f8;
-    --header-bg-color: #444444;
-    --nav-bg-color: rgba(50, 50, 50, 0.9);
-    --nav-link-color: #f8f8f8;
-    --nav-link-hover-color: #fff;
+    --text-color: #ffffff;
+    --background-color: #0f172a;
+    --header-bg-color: #111e3f;
+    --highlight-color: #58ddc8;
+    --shadow-color: #ffffff;
+    --shadow-stlye: 0px 0px 4px var(--shadow-color);
+    --hamburger-color: #ff2056;
+    --hamburger-hover: #ff2056;
+    --footer-color: #1e1e1e;
+    --footer-text: #ffffff;
 }
 
 .neon-theme {
-    --primary-color: #e84393;
-    --secondary-color: #00cec9;
-    --background-color: #2d3436;
-    --text-color: #dfe6e9;
-    --header-bg-color: #00cec9;
-    --nav-bg-color: rgba(255, 255, 255, 0.1);
-    --nav-link-color: #dfe6e9;
-    --nav-link-hover-color: #e84393;
+    --text-color: #ff00b7;
+    --background-color: #000000;
+    --header-bg-color: #000000;
+    --highlight-color: #fdff43;
+    --shadow-color: #ffffff;
+    --shadow-stlye: 0px 0px 4px var(--shadow-color);
+    --hamburger-color: #ff2056;
+    --hamburger-hover: #ff2056;
+    --footer-color: #1e1e1e;
+    --footer-text: #ffffff;
 }

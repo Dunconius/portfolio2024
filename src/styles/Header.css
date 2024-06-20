@@ -13,7 +13,7 @@
 
 .hamburger-icon {
     border: none;
-    color: var(--text-color);
+    color: var(--hamburger-color);
     background: none;
     font-size: 40px;
     font-weight: 900;
@@ -22,8 +22,8 @@
 }
 
 .hamburger-icon:hover {
-    color: var(--text-color);
-    text-shadow: 0px 0px 4px;
+    color: var(--hamburger-hover);
+    text-shadow: var(--shadow-stlye);
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
-    background-color: #111e3f;
+    background-color: var(--header-bg-color);
     position: absolute;
     width: 100%;
     max-height: 0;
@@ -54,11 +54,11 @@ h1 {
     padding: 10px 0;
     text-decoration: none;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--text-color);
 }
 
 .nav-bar a:hover {
-    color: #000;
+    color: var(--highlight-color);
 }
 
 button {
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-    color: #000;
+    color: var(--highlight-color);
 }
 
 #theme-links {

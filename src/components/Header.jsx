@@ -2,12 +2,13 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from 'react';
 import "../styles/Header.css"
 
-const Header = () => {
+const Header = ({onChangeTheme}) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    
     
     return (
         <header>
@@ -27,9 +28,9 @@ const Header = () => {
                     <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
                 </div>
                 <div id="theme-links">
-                    <button>Light Mode</button>
-                    <button>Dark Mode</button>
-                    <button>Neon</button>
+                    <button onClick={() => onChangeTheme('light-thme0}')}>Light Mode</button>
+                    <button onClick={() => onChangeTheme('dark-theme')}>Dark Mode</button>
+                    <button onClick={() => onChangeTheme('neon-theme')}>Neon</button>
                 </div>
             </nav>
         </header>
