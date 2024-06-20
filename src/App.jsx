@@ -8,7 +8,9 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
+
 const App = () => {
+    
     return (
         <Routes>
             <Route path="/" element={<Template />}>
