@@ -1,21 +1,24 @@
 /* themes.css */
 :root {
-    --text-color: #0f172a;
-    --background-color: #ffffff;
-    --header-bg-color: #f6f6fa;
-    --highlight-color: #ff2056;
-    --shadow-color: #ff2056;
-    --shadow-stlye: none;
-    --hamburger-color: var(--text-color);
-    --hamburger-hover: #ff2056;
-    --footer-color: #1e1e1e;
+    --text-color: #ffffff;
+    --text-color2: #d5d5d5;
+    --background-color: #0f172a;
+    --header-bg-color: #111e3f;
+    --highlight-color: #58ddc8;
+    --shadow-color: #58ddc8;
+    --shadow-stlye: 0px 0px 4px var(--shadow-color);
+    --hamburger-color: #58ddc8;
+    --hamburger-hover: #58ddc8;
+    --footer-color: #111e3f;
     --footer-text: #ffffff;
+    --neon-shadow: none;
     --heading-margin: 5px 0px 5px 0px;
-    --page-width: 900px;
+    --page-width: 1080px;
 }
 
 .light-theme {
     --text-color: #0f172a;
+    --text-color2: #0f172a;
     --background-color: #ffffff;
     --header-bg-color: #f6f6fa;
     --highlight-color: #ff2056;
@@ -24,8 +27,13 @@
     --hamburger-color: var(--text-color);
     --hamburger-hover: #ff2056;
     --footer-color: #1e1e1e;
-    --footer-text: #ffffff;
+    --footer-text: #b3b3b6;
     --neon-shadow: none;
+    --div-hover-bg: none;
+    --div-hover-border-radius: 0px;
+    --div-hover-box-shadow: 
+        0px -1px 3px rgba(255, 255, 255, 0.3), 
+        0px 1px 3px rgba(0, 0, 0, 0.3); 
 }
 
 .dark-theme {
@@ -41,11 +49,16 @@
     --footer-color: #111e3f;
     --footer-text: #ffffff;
     --neon-shadow: none;
+    --div-hover-bg: rgba(240, 255, 255, 0.1);
+    --div-hover-border-radius: 10px;
+    --div-hover-box-shadow: 
+        0px -1px 3px rgba(255, 255, 255, 0.3), 
+        0px 1px 3px rgba(0, 0, 0, 0.3); 
 }
 
 .neon-theme {
     --text-color: #ff00b7;
-    /* --text-color2: #ffffff; */
+    --text-color2: var(--text-color);
     --background-color: #000000;
     --header-bg-color: #101010;
     --header-highlight: 0px 0px 20px var(--text-color);
@@ -55,8 +68,13 @@
     --shadow-stlye: 0px 0px 20px var(--text-color);
     --neon-highlight: 0px 0px 20px var(--highlight-color);
     --neon-shadow: 0px 0px 20px var(--highlight-color);
-    --hamburger-color: #ff00b7;
-    --hamburger-hover: #ff00b7;
+    --hamburger-color: var(--text-color);
+    --hamburger-hover: var(--text-color);
     --footer-color: #000000;
     --footer-text: #81005c;
+    --div-hover-bg: rgba(240, 255, 255, 0.1);
+    --div-hover-border-radius: 10px;
+    --div-hover-box-shadow: 
+        0px -1px 3px rgba(255, 255, 255, 0.3), 
+        0px 1px 3px rgba(0, 0, 0, 0.3); 
 }

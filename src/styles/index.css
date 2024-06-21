@@ -11,8 +11,8 @@
 }
 
 #root {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 body {
@@ -30,10 +30,19 @@ code {
 
 .main-container {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page-container {
+  align-self: center;
+  display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  min-height: 100vh;
   max-width: var(--page-width);
+  width: 100%;
 }
 
 .main-info {
@@ -53,6 +62,7 @@ code {
 
 .footer p {
   font-size: 10px;
+  color: var(--footer-text);
 }
 
 h1 {
@@ -67,6 +77,7 @@ h2, h3 {
 
 h4 {
   margin: var(--heading-margin);
+  
 }
 
 p {
@@ -96,29 +107,52 @@ ul {
   transition: all 0.1s ease-in-out;
 }
 
-.main-info div:hover {
-  background-color: rgba(240, 255, 255, 0.1);
-  border-radius: 10px;
-  box-shadow:
-    0px -1px 3px rgba(255, 255, 255, 0.3), 
-    0px 1px 3px rgba(0, 0, 0, 0.3); 
+.work-history:hover,
+.project-info:hover {
+  background-color: var(--div-hover-bg);
+  border-radius: var(--div-hover-border-radius);
+  box-shadow: var(--div-hover-box-shadow);
 }
 
 
 
 
 /* MEDIA BREAK POINTS!!!! */
-
 @media only screen and (min-width: 769px) {
+  /*
+  */
   
   .main-info div {
     padding: 10px 20px 10px 20px;
     margin-left: 60px;
+    margin-right: 60px;
   }
 
+  h1 {
+    font-size: 2.6em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
 
+  h3 {
+    font-size: 1.75em;
+  }
+  
+  h4 {
+    font-size: 1.4em;
+    
+  }
 
+  .main-info p,
+  .main-info ul {
+    font-size: 1.2em;
+    letter-spacing: 0.7px;
+  }
 
-
+  .page-container {
+    padding-top: 60px;
+  }
 
 }

@@ -36,7 +36,7 @@ const Header = ({onChangeTheme}) => {
                     <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
                 </div>
                 <div id="theme-links">
-                    <button onClick={() => handleThemeChange('light-theme}')}>Light Mode</button>
+                    <button onClick={() => handleThemeChange('light-theme')}>Light Mode</button>
                     <button onClick={() => handleThemeChange('dark-theme')}>Dark Mode</button>
                     <button onClick={() => handleThemeChange('neon-theme')}>Neon</button>
                 </div>

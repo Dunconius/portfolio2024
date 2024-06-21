@@ -15,7 +15,9 @@ function Template() {
     return(<>
         <div className="main-container">
             <Header onChangeTheme={setTheme} />
-            <Outlet />
+            <div className="page-container">
+                <Outlet />
+            </div>
             <Footer />
         </div>
     </>);
