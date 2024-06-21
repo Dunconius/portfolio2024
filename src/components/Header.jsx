@@ -13,10 +13,13 @@ const Header = ({onChangeTheme}) => {
     return (
         <header>
             <div className="header-div">
+                <div className="header-title">
+                    <h1>Duncan Bean</h1>
+                    <p>Junior Web Developer</p>
+                </div>
                 <button className="hamburger-icon" onClick={toggleMenu}>
                     &#9776; {/* Unicode character for hamburger icon */}
                 </button>
-                <h1>This is the header</h1>
             </div>
             <nav className={`nav-bar ${isOpen ? 'open' : ''}`}>
                 <div id="nav-links">
@@ -28,7 +31,7 @@ const Header = ({onChangeTheme}) => {
                     <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
                 </div>
                 <div id="theme-links">
-                    <button onClick={() => onChangeTheme('light-thme0}')}>Light Mode</button>
+                    <button onClick={() => onChangeTheme('light-theme}')}>Light Mode</button>
                     <button onClick={() => onChangeTheme('dark-theme')}>Dark Mode</button>
                     <button onClick={() => onChangeTheme('neon-theme')}>Neon</button>
                 </div>

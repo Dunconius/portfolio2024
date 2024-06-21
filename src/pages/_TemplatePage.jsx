@@ -6,16 +6,18 @@ import "../styles/variables.css";
 
 function Template() {
     
-    const [theme, setTheme] = useState('light-theme');
+    const [theme, setTheme] = useState('dark-theme');
 
     useEffect(() => {
         document.documentElement.className = theme;
     }, [theme]);
 
     return(<>
-        <Header onChangeTheme={setTheme} />
-        <Outlet />
-        <Footer />
+        <div className="main-container">
+            <Header onChangeTheme={setTheme} />
+            <Outlet />
+            <Footer />
+        </div>
     </>);
 }
 

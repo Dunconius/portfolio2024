@@ -1,8 +1,10 @@
 
+const HomePage = () => (
+    <div className="main-info" id="home">
+        <h1>Duncan Bean</h1>
+        <h4>Junior Web Developer</h4>
+        <p>I love user-centric design and all building things with code</p>
+    </div>
+);
 
-export default function HomePage () {
-    return <>
-        <h1>This is the home page</h1>
-        <p>This is more text coming at you from the home page.</p>
-    </>
-}
+export default HomePage;

@@ -1,9 +1,0 @@
-
-.main-info { 
-    min-height: 300px; 
-    background-color: rgb(255, 217, 240);
-}
-
-.main-info.visible { 
-    background-color: rgb(243, 0, 146);
-}
