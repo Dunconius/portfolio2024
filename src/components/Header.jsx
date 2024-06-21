@@ -8,6 +8,11 @@ const Header = ({onChangeTheme}) => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
+    const handleThemeChange = (theme) => {
+        onChangeTheme(theme);
+        setIsOpen(false);
+    };
     
     
     return (
@@ -31,9 +36,9 @@ const Header = ({onChangeTheme}) => {
                     <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
                 </div>
                 <div id="theme-links">
-                    <button onClick={() => onChangeTheme('light-theme}')}>Light Mode</button>
-                    <button onClick={() => onChangeTheme('dark-theme')}>Dark Mode</button>
-                    <button onClick={() => onChangeTheme('neon-theme')}>Neon</button>
+                    <button onClick={() => handleThemeChange('light-theme}')}>Light Mode</button>
+                    <button onClick={() => handleThemeChange('dark-theme')}>Dark Mode</button>
+                    <button onClick={() => handleThemeChange('neon-theme')}>Neon</button>
                 </div>
             </nav>
         </header>
