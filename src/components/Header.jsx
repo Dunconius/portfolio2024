@@ -19,7 +19,7 @@ const Header = ({onChangeTheme}) => {
         <header>
             <div className="header-div">
                 <div className="header-title">
-                    <h1>Duncan Bean</h1>
+                    <NavLink to="/" className="home-button" onClick={() => setIsOpen(false)}><h1>Duncan Bean</h1></NavLink>
                     <p>Junior Web Developer</p>
                 </div>
                 <button className="hamburger-icon" onClick={toggleMenu}>

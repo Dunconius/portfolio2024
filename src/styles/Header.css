@@ -45,6 +45,17 @@ header {
     text-shadow: var(--shadow-stlye);
 }
 
+.home-button {
+    margin: 0px;
+    text-shadow: var(--header-highlight);
+    transition: all 0.2s ease-in-out
+}
+
+.home-button:hover {
+    color: var(--highlight-color);
+    text-shadow: var(--neon-shadow);
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;

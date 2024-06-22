@@ -11,7 +11,7 @@ const About = () => (
       <div>
         <p>I aspire to leverage my diverse design and technical background to create innovative, user-centric web solutions that enhance the digital experience and am eager to contribute to innovative teams and dynamic projects.</p>
       </div>
-      {/* <div>
+      <div>
         <p>I am a budding web developer, eager to dive into the world of creating amazing online experiences. With a hunger for learning and a keen eye for detail, I'm here to share the web projects I've been working on as I grow my skills.</p>
       </div>
       <div>
@@ -22,7 +22,7 @@ const About = () => (
       </div>
       <div>
         <p>Over the past few years I have been dabbling in web design and have built several websites including one for a paying client using Webflow. This has given me a great understanding of the physyical structure of HTML but seen through a graphical user interface. This has helped me a lot in the first few weeks at CoderAcademy as I already have a strong understanding of HTML elements, flex-box, and styling.</p>
-      </div> */}
+      </div>
     </div>
 
     

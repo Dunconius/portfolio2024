@@ -114,6 +114,18 @@ ul {
   box-shadow: var(--div-hover-box-shadow);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-links {
+  text-decoration: none;
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+
 
 
 
