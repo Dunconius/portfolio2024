@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styles/Hamburger.css';
 
 const Hamburger = ({ isOpen, onClick }) => {
