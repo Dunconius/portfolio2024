@@ -1,18 +1,40 @@
 
 .home-page h2 {
-  font-size: 6em;
-}
-
-.home-page h3 {
-  font-size: 4em;
+  font-size: 3em;
+  margin: 0px;
 }
 
 .home-page h4 {
-  font-size: 3em;
+  font-size: 1.8em;
   padding-bottom: 10px;
+  margin: 0px;
 }
 
 .home-page p {
-  font-size: 1.5em;
-  padding-top: 20px;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* MEDIA BREAK POINTS!!!! */
+
+@media only screen and (min-width: 769px) {
+
+  .home-page h2 {
+    font-size: 6em;
+  }
+  
+  .home-page h3 {
+    font-size: 4em;
+  }
+  
+  .home-page h4 {
+    font-size: 3em;
+    padding-bottom: 10px;
+  }
+  
+  .home-page p {
+    font-size: 1.5em;
+    padding-top: 20px;
+  }
+
 }

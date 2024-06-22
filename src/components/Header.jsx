@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from 'react';
 import "../styles/Header.css"
+import Hamburger from "./Hamburger";
 
 const Header = ({onChangeTheme}) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +23,8 @@ const Header = ({onChangeTheme}) => {
                     <NavLink to="/" className="home-button" onClick={() => setIsOpen(false)}><h1>Duncan Bean</h1></NavLink>
                     <p>Junior Web Developer</p>
                 </div>
-                <button className="hamburger-icon" onClick={toggleMenu}>
-                    &#9776; {/* Unicode character for hamburger icon */}
-                </button>
+                <Hamburger isOpen={isOpen} onClick={toggleMenu} />
+                
             </div>
             <nav className={`nav-bar ${isOpen ? 'open' : ''}`}>
                 <div id="nav-links">

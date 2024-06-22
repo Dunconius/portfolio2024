@@ -45,6 +45,10 @@ header {
     text-shadow: var(--shadow-stlye);
 }
 
+.hamburger {
+    color: aqua;
+}
+
 .home-button {
     margin: 0px;
     text-shadow: var(--header-highlight);
