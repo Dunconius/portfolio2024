@@ -47,7 +47,7 @@
     --hamburger-color: var(--text-color);
     --hamburger-hover: #58ddc8;
     --footer-color: #111e3f;
-    --footer-text: #ffffff;
+    --footer-text: var(--text-color2);
     --neon-shadow: none;
     --div-hover-bg: rgba(240, 255, 255, 0.05);
     --div-hover-border-radius: 10px;

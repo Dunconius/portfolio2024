@@ -1,0 +1,41 @@
+/* src/components/GithubLogo.css */
+.footer {
+    padding: var(--global-margin);
+    background-color: var(--footer-color);
+    color: var(--footer-text);
+    width: 100;
+    display: flex;
+    justify-content: center;
+
+}
+  
+.footer p {
+    font-size: 1em;
+    color: var(--footer-text);
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+
+.logo-bg {
+    fill: var(--highlight-color);
+}
+  
+.logo-fg {
+    fill: var(--footer-color);
+}
+
+.social-icons {
+    width: 25px;
+    height: 25px;
+}
+
+.footer a {
+    margin: 0px;
+}
+
+.footer-link {
+    padding: 0px 10px 0px 10px;
+    /* margin-bottom: 10px; */
+}
+  

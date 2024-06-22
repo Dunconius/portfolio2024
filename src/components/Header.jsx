@@ -30,10 +30,10 @@ const Header = ({onChangeTheme}) => {
                 <div id="nav-links">
                     <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
                     <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
-                    <NavLink to="/experience" onClick={() => setIsOpen(false)}>Experience</NavLink>
                     <NavLink to="/skills" onClick={() => setIsOpen(false)}>Skills</NavLink>
                     <NavLink to="/projects" onClick={() => setIsOpen(false)}>Projects</NavLink>
-                    <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
+                    <NavLink to="/experience" onClick={() => setIsOpen(false)}>Experience</NavLink>
+                    {/* <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink> */}
                 </div>
                 <div id="theme-links">
                     <button onClick={() => handleThemeChange('light-theme')}>Light Mode</button>

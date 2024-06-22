@@ -51,19 +51,6 @@ code {
   
 }
 
-.footer {
-  padding: var(--global-margin);
-  background-color: var(--footer-color);
-  color: var(--footer-text);
-  width: 100;
-  display: flex;
-  justify-content: center;
-}
-
-.footer p {
-  font-size: 10px;
-  color: var(--footer-text);
-}
 
 h1 {
   font-weight: 700;
@@ -98,6 +85,10 @@ ul {
 .project-info a {
   display: block; /* or inline-block */
   margin-bottom: 10px; /* Optional: Add some space between the links */
+}
+
+.project-info p {
+  padding: 10px 0px 10px 0px;
 }
 
 .main-info div {
@@ -154,7 +145,10 @@ a {
   
   h4 {
     font-size: 1.4em;
-    
+  }
+
+  h5 {
+    font-weight: 300;
   }
 
   .main-info p,
