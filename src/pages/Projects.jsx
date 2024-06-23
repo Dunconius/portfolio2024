@@ -24,7 +24,7 @@ const Projects = () => (
         <div className="project-info">
             <h4>Duncan Bean Visualisation</h4>
             <a className="project-links" href="https://www.duncanbean.com/" target="_blank" rel="noopener noreferrer">duncanbean.com</a>
-            <p>My personal portfolio website showcasing my 3D architectural rendering work. Made using Weblfow</p>
+            <p>My personal portfolio website showcasing my 3D architectural rendering work. Made using Weblfow.</p>
             <p>
             I created this portfolio website using Webflow to showcase my work in 3D architectural visualisation. The main focus of the site is the visual content, which is display in a dynamic grid format slideshow. This project demonstrates my ability to create visually compelling, user-friendly websites for the presentation of artistic work.
             </p>

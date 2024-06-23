@@ -5,7 +5,7 @@ const About = () => (
     <h2>About Me</h2>
     <h4>Junior Web Developer</h4>
     <div className="info-content-wrapper">
-      <p>With a unique background in interior design and 3D animation, I bring a distinct perspective to web development. My previous experience has given me a keen understanding of user-centric design and I try to bring this into everything I do. I love untangling the brief and solving the puzzles of the design. I always want to keep learning and enjoy crafting intuitive and visually appealing web solutions.</p>
+      <p>With a strong background in interior design and 3D animation, I bring a unique perspective to web development. My previous experience has given me a deep understanding of user-centric design and I incorporate this into everything I do. I love untangling the brief and solving the puzzles of the design. I am passionate about learning and enjoy crafting intuitive and visually appealing web solutions.</p>
     </div>
     <div>
       <h3><em>
