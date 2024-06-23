@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
+import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Glow from '../components/glow';
 
 
 function Template() {
@@ -14,6 +15,9 @@ function Template() {
 
     return(<>
         <div className="main-container">
+            <div className="glow-container">
+                <Glow />
+            </div>
             <Header onChangeTheme={setTheme} />
             <div className="page-container">
                 <Outlet />

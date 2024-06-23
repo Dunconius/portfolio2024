@@ -1,0 +1,21 @@
+.glow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow mouse interactions with underlying content */
+    z-index: -1; /* Ensure it is underneath all content */
+    overflow: hidden;
+}
+
+.glow {
+    position: absolute;
+    width: 2500px;
+    height: 2500px;
+    background: radial-gradient(circle, var(--glow-color-fg) 0%, var(--glow-color-bg) 50%);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Ensure it is underneath all content */
+}

@@ -3,7 +3,7 @@ const Projects = () => (
     <section className="main-info" id="projects">
         <h2>Projects</h2>
         <div className="project-info">
-            <h4>Timetable AP</h4>
+            <h4>Timetable API</h4>
             <a className="project-links" href="https://github.com/Dunconius/timetable_api" target="_blank" rel="noopener noreferrer">Repo Link</a>
             <p>This project is a backend app for timetabling school classes. The application was built using Flask as the API framework and PostgreSQL for the database.</p>
             <p>The application allows for efficient management of classroom bookings, class schedules, and teacher assignments, implementing full CRUD functionality for data manipulation. The app follows RESTful conventions for HTTP requests to facilitate communication between the client and server. Documentation includes an Entity-Relationship Diagram (ERD) and endpoint descriptions. This project showcases my skills in backend development, database management, and API design.</p>

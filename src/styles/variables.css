@@ -32,7 +32,7 @@
     --neon-shadow: none;
     --div-hover-bg: rgba(0, 0, 0, 0.05);
     --div-hover-border-radius: 10px;
-    --div-hover-box-shadow: none; 
+    --div-hover-box-shadow: none;
 }
 
 .dark-theme {
@@ -51,9 +51,11 @@
     --neon-shadow: none;
     --div-hover-bg: rgba(240, 255, 255, 0.05);
     --div-hover-border-radius: 10px;
+    --glow-color-fg: #111e3f;
+    --glow-color-bg: var(--background-color); 
     --div-hover-box-shadow: 
         0px -1px 3px rgba(255, 255, 255, 0.2), 
-        0px 1px 3px rgba(0, 0, 0, 0.2); 
+        0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .neon-theme {
@@ -75,6 +77,8 @@
     --footer-text: #81005c;
     --div-hover-bg: rgba(240, 255, 255, 0.05);
     --div-hover-border-radius: 10px;
+    --glow-color-fg: #11000c;
+    --glow-color-bg: var(--background-color); 
     --div-hover-box-shadow: 
         0px -1px 3px rgba(255, 255, 255, 0.2), 
         0px 1px 3px rgba(0, 0, 0, 0.2); 
