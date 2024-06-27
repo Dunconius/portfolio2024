@@ -1,40 +1,33 @@
 # My Portfolio - Built with React
 
-My updated portfolio website (June 2024). Built as a single page web app using react containing the following sections:
+My updated portfolio website (June 2024). Built using react and CSS. It contains the following sections:
 
 - about
-- projects
 - skills
+- projects
 - experience
-- contact
 
 ## Routes
 
 - "/" : homepage
 - About
-- Projects
 - Skills
+- Projects
 - Experience
-- Contact
 
 ## Components
 
 - Header
 - Nav bar
-- Main
+- Main-content
 - Footer
-- Main info:
-- Theme changer
 
 ## Features
 
-- Theme change
-  - Button to switch between 3 different colour themes. Light, Dark, & Neon
-- Drop down menu
-- Conditional routing?
+- Drop down nav-menu with CSS styled and animated hamburger menu.
+- Theme switcher
+  - Menu to switch between 3 different colour themes. Light, Dark, & Neon
+- Conditional routing
 - Mobile design
-  - In mobile view side menu replaced with dropdown menu
-  - Sticky headers for sections
-  - return to top button (also sticky)
-
-## Contexts
+  - Sizing and spacing responds to mobile and desktop view sizes
+- Glowy background effect that follows curser to add tactililty and enhance user experience.

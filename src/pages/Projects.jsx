@@ -3,6 +3,14 @@ const Projects = () => (
     <section className="main-info" id="projects">
         <h2>Projects</h2>
         <div className="project-info">
+            <h4>Portfolio Website</h4>
+            <a className="project-links" href="https://github.com/Dunconius/portfolio2024" target="_blank" rel="noopener noreferrer">Repo Link</a>
+            <a className="project-links" href="https://duncanbean-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment Link</a>
+            <p>It's this website. You're looking at it right now!</p>
+            <p>Built with React and JavaScript, this website is my most up to date portfolio and showcases my web development projects and skills. It features dynamic routing for seamless navigation between pages, CSS variables for consistent styling and theme switching, and a clean, responsive design to ensure accessibility across devices. The site highlights my expertise in React, JavaScript, and modern web development practices.
+            </p>
+        </div>
+        <div className="project-info">
             <h4>Timetable API</h4>
             <a className="project-links" href="https://github.com/Dunconius/timetable_api" target="_blank" rel="noopener noreferrer">Repo Link</a>
             <p>This project is a backend app for timetabling school classes. The application was built using Flask as the API framework and PostgreSQL for the database.</p>
@@ -15,6 +23,7 @@ const Projects = () => (
             <p>Catstagram is a social media style app dedicated solely to cat pictures. This project was built in 48 hours as part of a hackathon.</p>
             <p>Built with React and JavaScript, the application fetches data (cat pics) from The Cat API generates random cat names from a predefined list. Users can like cats and get more cats to enjoy an endless supply of cute cat pics. The app displays data dynamically and uses conditional rendering and state management to handle user interactions smoothly. This project highlights my ability to rapidly prototype and deliver a functional, visually appealing frontend application.</p>
         </div>
+        
         <div className="project-info">
             <h4>DesignGrads</h4>
             <a className="project-links" href="https://www.designgrads.com.au/" target="_blank" rel="noopener noreferrer">designgrads.com</a>
