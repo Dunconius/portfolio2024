@@ -29,7 +29,7 @@ code {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -44,7 +44,8 @@ code {
 
 .main-info {
   flex-grow: 1;
-  padding: var(--global-margin);
+  /* padding: var(--global-margin); */
+  padding: 1rem 1rem 4rem 1rem;
   
 }
 
@@ -75,7 +76,8 @@ ul {
   color: var(--text-color2)
 }
 
-.project-info {
+.project-info,
+.work-history {
   margin-bottom: 40px;
 }
 
